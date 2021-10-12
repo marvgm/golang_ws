@@ -1,0 +1,7 @@
+docker-compose up -d
+
+docker exec -it esquenta-imersao-go_app_1 bash
+
+--rodar go dentro do container criado
+
+go run main.go
